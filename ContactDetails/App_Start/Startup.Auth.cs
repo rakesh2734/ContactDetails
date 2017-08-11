@@ -6,6 +6,7 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using ContactDetails.Models;
+using System.Configuration;
 
 namespace ContactDetails
 {
@@ -55,14 +56,14 @@ namespace ContactDetails
             //   consumerSecret: "");
 
             //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            //   appId: "156545048233046",
+            //   appSecret: "052bdebc9e679e31664c7edc733e7d8a");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = ConfigurationManager.AppSettings["ClientID"],
+                ClientSecret = ConfigurationManager.AppSettings["Clientsecret"]
+            });
         }
     }
 }
