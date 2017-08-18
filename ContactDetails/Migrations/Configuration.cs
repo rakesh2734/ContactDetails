@@ -10,7 +10,7 @@ namespace ContactDetails.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            ContextKey = "ContactDetails.Models.ApplicationDbContext";
+            ContextKey = "ContactDetails.Models.ContactDetailsContext";
         }
 
         protected override void Seed(ContactDetails.Models.ContactDetailsContext context)

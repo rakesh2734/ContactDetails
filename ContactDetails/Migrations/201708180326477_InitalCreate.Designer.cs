@@ -7,13 +7,13 @@ namespace ContactDetails.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class IntialMigrations : IMigrationMetadata
+    public sealed partial class InitalCreate : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(IntialMigrations));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(InitalCreate));
         
         string IMigrationMetadata.Id
         {
-            get { return "201708140333068_IntialMigrations"; }
+            get { return "201708180326477_InitalCreate"; }
         }
         
         string IMigrationMetadata.Source

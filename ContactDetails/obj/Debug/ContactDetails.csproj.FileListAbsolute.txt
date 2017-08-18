@@ -66,6 +66,6 @@ C:\Users\rakesh\Documents\Visual Studio 2015\Projects\ContactDetails\ContactDeta
 C:\Users\rakesh\Documents\Visual Studio 2015\Projects\ContactDetails\ContactDetails\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\rakesh\Documents\Visual Studio 2015\Projects\ContactDetails\ContactDetails\obj\Debug\ContactDetails.dll
 C:\Users\rakesh\Documents\Visual Studio 2015\Projects\ContactDetails\ContactDetails\obj\Debug\ContactDetails.pdb
-C:\Users\rakesh\documents\visual studio 2015\Projects\ContactDetails\ContactDetails\obj\Debug\ContactDetails.csproj.GenerateResource.Cache
 C:\Users\rakesh\Documents\Visual Studio 2015\Projects\ContactDetails\ContactDetails\obj\Debug\ContactDetails.csprojResolveAssemblyReference.cache
-C:\Users\rakesh\Documents\Visual Studio 2015\Projects\ContactDetails\ContactDetails\obj\Debug\ContactDetails.Migrations.IntialMigrations.resources
+C:\Users\rakesh\Documents\Visual Studio 2015\Projects\ContactDetails\ContactDetails\obj\Debug\ContactDetails.Migrations.InitalCreate.resources
+C:\Users\rakesh\Documents\Visual Studio 2015\Projects\ContactDetails\ContactDetails\obj\Debug\ContactDetails.csproj.GenerateResource.Cache

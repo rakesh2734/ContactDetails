@@ -3,7 +3,7 @@ namespace ContactDetails.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class IntialMigrations : DbMigration
+    public partial class InitalCreate : DbMigration
     {
         public override void Up()
         {
